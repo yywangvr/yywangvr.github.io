@@ -31,16 +31,13 @@
 
 <div>
 <div style="float:left">
-	<a href="mailto:wyuyang@hotmail.com">wyuyang (at) hotmail (dot) com</a>
+	<a href="mailto:yuyangwang@hkust-gz.edu.cn">yuyangwang (at) hkust-gz.edu.cn</a>
 	<br>
 	<a href="https://github.com/yywangvr" >
 	  <i class="fa fa-github"> </i>
 	</a>
 	<a href=" https://www.linkedin.com/in/yywangvr/" >
 	 <i class="fa fa-linkedin" aria-hidden="true"></i>
-	</a>
-	<a href="https://twitter.com/yyuwang_" >
-	<i class="fa fa-twitter"> </i>
 	</a>
    </br>		
 </div>
@@ -53,43 +50,21 @@
 </div>
 
 
-<!-- 注释
-[wyuyang (at) hotmail (dot) com](mailto:wyuyang@hotmail.com)
-<a href="https://github.com/yywangvr" >
-  <i class="fa fa-github"> </i>
-</a>
-<a href=" https://www.linkedin.com/in/yywangvr/" >
- <i class="fa fa-linkedin" aria-hidden="true"></i>
-</a>
-<a href="https://twitter.com/yyuwang_" >
-<i class="fa fa-twitter"> </i>
-</a>
--->
+
 
 <br>
-<br>Dr. Yuyang Wang is an Assistant Professor at Computational Media and Art (CMA) at the Hong Kong University of Science and Technology (Guangzhou) Information Hub, after concluding postdoc research. He received a PhD in computer science from the Arts et Métiers Institute of Technology, ParisTech in France. Under the framework of the French‐German Institute for Industry of the Future, he was a visiting researcher at the Karlsruhe Institute of Technology in Germany. In addition, he holds a master's degree in numerical methods in engineering from the International Center for Numerical Methods (CIMNE), the Polytechnic University of Catalonia in Spain. He consistently publishes works and serves as a reviewer in premier journals and conferences in his research area, such as Virtual Reality (Springer), International Journal of Human-Computer Studies, IEEE VR, IEEE ISMAR, et al.
+<br>Dr. [Yuyang Wang](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Yuyang/yuyangwang) is an Assistant Professor in the Computational Media and Arts (CMA) Thrust at the Hong Kong University of Science and Technology (Guangzhou) Information Hub. He was with the CMA thrust from 2022 to 2024, where he held the position of Postdoctoral Research Fellow. He received a PhD in computer science from the Arts et Métiers Institute of Technology, ParisTech in France. Under the framework of the French‐German Institute for Industry of the Future, he was a visiting researcher at the Karlsruhe Institute of Technology in Germany. Additionally, he holds a master's degree in numerical methods in engineering from the International Center for Numerical Methods (CIMNE) at the Polytechnic University of Catalonia in Spain. 
+
+He consistently publishes works and serves as a reviewer in premier journals and conferences in his research area, such as Virtual Reality (Springer), International Journal of Human-Computer Studies (IJHCS), IEEE Transactions on Human-Machine Systems (THMS), ACM Multimedia, IEEE VR (Program Committee), IEEE ISMAR. 
 
 
 
 ----
 
-##<small>Research interests</small>
-<font size=2>
 
-- Mitigation and prediction of motion sickness (or cybersickness) in virtual reality (P.S., with the help of A.I. methods) 
-- The neural mechanism behind user perception and sensory (P.S., Computational neuroscience, reinforcement learning)
-- Multi-sensory VR interaction design and affective computing (P.S., Cognitive systems)
-- Multiphysics modeling and simulation based on numerical methods (P.S., Mathematical and physical equations, physics-driven methods)
-
-Research methodology relies on `theoretical inference/simulation` and `user study` supported by statistics, signal processing, machine/deep learning, control theory and numerical modeling, *etc.*.
-
-</font>
-
-----
-
-##<small>Working experience</small>
+##<small>Employment</small>
 `March 2024 - Now`
-<font size=2>
+<font size=3>
 - __Assistant professor__
 
 - Computational Media and Arts, Information Hub, [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn), China
@@ -97,25 +72,27 @@ Research methodology relies on `theoretical inference/simulation` and `user stud
 
 
 `March 2022 - March 2024`
-<font size=2>
+<font size=3>
 - __Postdoctoral researcher__
 
 - Computational Media and Arts, Information Hub, [The Hong Kong University of Science and Technology (Guangzhou)](https://hkust-gz.edu.cn), China
-- Advisor: Prof.Pan Hui, IEEE Fellow, member of Academia Europaea
+- Advisor: Prof. Pan Hui, IEEE Fellow, member of Academia Europaea
 - XR, computer-human interaction
 
 </font>
 
 
 `October 2019 - September 2020`
-<font size=2>
+<font size=3>
 - __Visiting scholar__
 
 - Institute for Information Management in Engineering ([IMI](https://www.imi.kit.edu)), [Karlsruhe Institute of Technology](https://www.kit.edu/english/index.php), Germany
+- Host: Prof. Jivka  Ovtcharova
 - VR, interaction, fuzzy logic, user modelling, human factors
 
 </font>
 
+<!-- 注释
 
 ##<small>Education</small>
 `November 2017 - October 2021 `
@@ -174,13 +151,51 @@ Research methodology relies on `theoretical inference/simulation` and `user stud
 <font size=2>
 - __National scholarship from the Ministry of Education of the PRC__
 </font>
+-->
 
 ----
 
 
+##<small>Research Interests</small>
+<font size=3>
+<!-- 注释
+- Mitigation and prediction of motion sickness (or cybersickness) in virtual reality (P.S., with the help of A.I. methods) 
+- The neural mechanism behind user perception and sensory (P.S., Computational neuroscience, reinforcement learning)
+- Multi-sensory VR interaction design and affective computing (P.S., Cognitive systems)
+- Multiphysics modeling and simulation based on numerical methods (P.S., Mathematical and physical equations, physics-driven methods)
+-->
+
+- Multimodal Emotion Recognition towards BCI
+- Personalized Human-Machine Interaction
+- Explainable AI for Perception Analysis
+- Computer Vision/Reinforcement Learning
+- AI for Good
+
+</font>
+
+Find Our Publications in [Google Scholar.](https://scholar.google.com/citations?user=D1HTbhEAAAAJ&hl=zh-CN)
 
 
-##<small>Community service</small>
+
+----
+
+##<small>I am Hiring Students</small>
+<font size=3>
+
+- PhD & Mphil students
+- Research assistants & Interns (those seeking to gain experience)
+</font>
+<font size=2>
+
+__RedBird MPhil__ students in my group have the opportunity to develop their research skills with hands-on mentoring, and successful candidates are well-positioned for admission to our PhD program, with an advantage over direct applicants. Interested students are encouraged to reach out.<br>
+__PhD applicants__ should have solid research experience aligning with our research interests.<br>
+__Applicants__ with limited research experience, joining our group as an intern or research assistant can be a valuable option.
+</font>
+
+<!-- 
+
+----
+##<small>Service</small>
 <font size=2>
 
 `Organizers or chairs`
@@ -190,13 +205,13 @@ Research methodology relies on `theoretical inference/simulation` and `user stud
 
 `Reviewers`
 
-- Reviewer of international conferences: IEEE VR, IEEE ISMAR, ACM VRST
+- Reviewer of international conferences: IEEE VR, IEEE ISMAR, ACM VRST, AAAI, ACM MM
 - Reviewer of international journals: IEEE Transactions on Visualization and Computer Graphics, IJHCS, IJHCI
 
 </font>
 
 ----
-<!-- 
+
 
 ##<small>Invited talk</small>
 <font size=2>
@@ -206,8 +221,6 @@ Research methodology relies on `theoretical inference/simulation` and `user stud
 - Introduction to virtual reality. August 2018, the 2nd International Youth Innovation Conference, China
 
 </font>
---->
-
 
 <div style="float:right">
 	<img class="image2" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yywangvr&layout=compact&hide_border=true&langs_count=10">
@@ -224,32 +237,20 @@ Research methodology relies on `theoretical inference/simulation` and `user stud
 
 </font>
 
----
+
+##<small>Publications</small>
 
 
-<!-- 
-##<small>Hobbies</small>
-<font size=2>
-
-- Badminton and Chinese chess since childhood
-- Piano during confinement of Covid-19
-
-</font>
+<script src="https://bibbase.org/service/mendeley/4b66b327-35ad-3956-a9a2-307331dd9988?jsonp=1?&owner=Wang,Yuyang&theme=default&fullnames=0">
+</script>
 --->
 
 
-##<small>Publications</small>
-<script src="https://bibbase.org/service/mendeley/4b66b327-35ad-3956-a9a2-307331dd9988?jsonp=1?&owner=Wang,Yuyang&theme=default&fullnames=0">
-</script>
-
-----
 
 
 
 <!-- 地球仪统计访客信息-->
-<div align="center">
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5d4f8mo2j0d&amp;m=7&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33&amp;s=280" async="async"></script>
-</div>
+
 
 
 <!-- 访客统计：
@@ -258,21 +259,6 @@ Research methodology relies on `theoretical inference/simulation` and `user stud
 <div class="elfsight-app-cbccd487-043a-4559-b59c-134294ef3b20"></div>
 </div>
 -->
-
-
-<!-- 通过邮箱联系我： contact form-->
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-602f8d4e-e7e1-4a75-9aac-df3739b01748"></div>
-
-<!-- 分享到社交媒体: social media icons, 暂时不用了。
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-5b627863-4d01-4779-b6bd-53df1536602d"></div>
--->
-
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6001d169567f8288"></script>
-
-
 
 
 
