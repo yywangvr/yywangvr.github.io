@@ -1,5 +1,31 @@
 
 
+<style type="text/css">
+
+/* 新增：全局正文字体（匹配HKUST Muli风格） */
+body {
+    font-family: "Muli", Arial, Helvetica, sans-serif;
+}
+/* 板块小标题加粗（Recent News、RECRUITMENT次级标题） */
+h2, h3 {
+    font-family: "Muli", Arial, sans-serif;
+    font-weight: 700;
+}
+/* 红色招募醒目文字样式，直接调用class */
+.red-title {
+    color: red;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+/* 一级大标题RECRUITMENT */
+/* 替换Futura为免费开源几何粗体，彻底规避版权 */
+h1 {
+    font-family: "Josefin Sans", Montserrat, "Muli", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+</style>
+
 
 
 ##<small>Education</small>
@@ -93,3 +119,18 @@
 - __National scholarship from the Ministry of Education of the PRC__
 </font>
 
+
+<div style="float:right">
+	<img class="image2" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yywangvr&layout=compact&hide_border=true&langs_count=10">
+</div>
+
+##<small>Computer skills</small>
+
+
+<font size=2>
+
+- Language: C# (Unity3D), Python, Matlab, C++, Latex 
+- Parallel/distributed computing framework using OpenMP, Open MPI, [Ray](https://ray.io) 
+- AI programming framework
+
+</font>

@@ -1,27 +1,72 @@
-# <small>Demo</small> 
+<style type="text/css">
 
-My research experience focuses primarily on theoretical contributions, and I show selected demos here, more coming soon...
+/* 全局正文：字体、基准字号、行高 */
+body {
+    font-family: "Muli", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6; /* 优化行间距，提升阅读体验 */
+}
+
+/* ========== 所有标题统一加粗 ========== */
+/* 一级大标题 h1 */
+h1 {
+    font-family: "Josefin Sans", Montserrat, "Muli", Arial, sans-serif;
+    font-weight: 700; /* 加粗 */
+    text-transform: uppercase; /* 英文全大写 */
+    font-size: 34px;
+    margin: 20px 0 10px 0;
+}
+
+/* 二级标题 h2 */
+h2 {
+    font-family: "Muli", Arial, sans-serif;
+    font-weight: 700; /* 加粗 */
+    font-size: 24px;
+    margin: 18px 0 8px 0;
+}
+
+/* 三级标题 h3 */
+h3 {
+    font-family: "Muli", Arial, sans-serif;
+    font-weight: 700; /* 加粗 */
+    font-size: 20px;
+    margin: 15px 0 6px 0;
+}
+
+/* 红色醒目文字自定义样式 */
+.red-title {
+    color: red;
+    font-weight: 800; /* 比普通标题更粗，突出强调 */
+    font-size: 1.3em;
+}
+</style>
 
 
+---
+## Immersive Human-Machine Intelligence
 
-##<small>Smart interaction</small> 
+
+Our research in __Immersive Human-Machine Intelligence__ spans three integrated pillars: __VR Sickness Modeling__ to dynamically predict discomfort from multimodal inputs, __Closed-loop Interaction__ utilizing real-time physiological sensing for adaptive control, and __XR Applications__ that enhance immersive education, digital art, and human potential. Guided by human-centered intelligence, we bridge computational neuroscience and immersive technology to augment human experiences.
+
 <div align="center">
-<img src="/media/smartInteraction.jpg" width="500" height="auto">
+<img src="/media/self-intro.png" width="500" height="auto">
 </div>
 
-Cybersickness is an annoying issue in locomotion-dominated VR applications, while the online evaluation of cybersickness during the use of VR will benefit many developers and researchers. Currently, an approach to evaluating cybersickness is using subjective questionnaires (e.g., SSQ), but the questionnaire-based evaluation will interrupt the experiment and introduce huge individual variances. Can we develop some tools to report cybersickness in real-time according to physiological signals such as EDA, Heart rate, EEG, Posture sway, etc.? Which feature can be extracted as the best online cybersickness indicator? Can artificial intelligence algorithms work? How can we validate its performance?
+## Cybersickness
 
 
 
 
+Taking cybersickness mitigation as a concrete application, we aim to move beyond traditional, disruptive subjective questionnaires (like the SSQ) toward continuous, objective tracking. We investigate three core research questions:
+
+- __Multimodal Sensing__: How can we reliably extract real-time indicators of cybersickness, anxiety, and emotion from physiological signals (EEG, HRV, EDA)?
+- __Intelligent Decoding__: Which computational features best reflect the onset and progression of discomfort?
+- __Closed-loop Validation__: How can AI algorithms effectively process these bio-features to drive online system adaptation?
+
+<div align="center">
+<img src="/media/loopv2.png" width="400" height="auto">
+</div>
 
 
-<!-- 通过邮箱联系我： contact form-->
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-602f8d4e-e7e1-4a75-9aac-df3739b01748"></div>
 
-
-
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6001d169567f8288"></script>
 
