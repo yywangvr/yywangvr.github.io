@@ -24,9 +24,34 @@
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
                 <a class="navbar-brand" href=".">Yuyang WANG</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
                 <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem active">
+                                <a href="." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="research/" class="nav-link">Research</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="publications/" class="nav-link">Publications</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="teaching/" class="nav-link">Teaching</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="service/" class="nav-link">Services</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="team/" class="nav-link">Team</a>
+                            </li>
+                        </ul>
 
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item">
@@ -34,6 +59,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="research/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -54,15 +89,7 @@
             
             <li class="nav-item" data-level="1"><a href="#yuyang-wang" class="nav-link">Yuyang WANG</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#education" class="nav-link">Education</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#employment" class="nav-link">Employment</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#funding-and-awards" class="nav-link">Funding and awards</a>
+            <li class="nav-item" data-level="2"><a href="#recruitment" class="nav-link">Recruitment</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -70,7 +97,7 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#i-am-hiring-students" class="nav-link">I am Hiring Students</a>
+            <li class="nav-item" data-level="2"><a href="#computer-skills" class="nav-link">Computer skills</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -97,6 +124,8 @@
            overflow: hidden; 
            border-radius:20%; 
     }
+
+
 
 </style>
 
@@ -129,81 +158,20 @@
 
 <p><font size=3>
 <br>
-<br>Dr. <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Yuyang/yuyangwang">Yuyang Wang</a> is an Assistant Professor in the Computational Media and Arts (CMA) Thrust at the Hong Kong University of Science and Technology (Guangzhou) Information Hub. He was with the CMA thrust from 2022 to 2024, where he held the position of Postdoctoral Research Fellow. He received a PhD in computer science from the Arts et Métiers Institute of Technology, ParisTech in France. </p>
+<br>I am an <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Yuyang/yuyangwang">Assistant Professor</a> in the Computational Media and Arts (CMA) Thrust at the Hong Kong University of Science and Technology (Guangzhou) Information Hub. </p>
+<p>I was with the CMA thrust from 2022 to 2024, where he held the position of Postdoctoral Research Fellow. I received a PhD in computer science from the Arts et Métiers Institute of Technology, ParisTech in France. Under the framework of the French‐German Institute for Industry of the Future, I was a visiting researcher at the Karlsruhe Institute of Technology in Germany. Additionally, I hold a master's degree in numerical methods in engineering from the International Center for Numerical Methods (CIMNE) at the Polytechnic University of Catalonia in Spain. </p>
 <hr />
-<h2 id="education"><small>Education</small></h2>
-<p><code>November 2017 - October 2021</code>
-<font size=2>
-- <strong>PhD in Computer Science, Arts et Metiers ParisTech, France</strong></p>
-<!-- 注释
-- [Image institute](http://institutimage.ensam.eu/homepage-institut-image-102267.kjsp?RH=1417091979616&RF=1417092040212) , [Arts et metiers institute of technology](https://artsetmetiers.fr), France
-- Virtual reality (VR), navigation/locomotion, interaction, cybersickness, cognitive workload, subjective evaluation, optimal control, data-driven modeling, deep learning
-- Thesis: Intelligent navigation in virtual reality (defended: [video](https://youtu.be/JGA4uBs61dc))
--->
-<p></font></p>
-<p><code>September 2015 - July 2017</code>
-<font size=2>
-- <strong>Master on Numerical Methods in Engineering, UPC BarcelonaTech, Spain</strong></p>
-<!-- 注释
-- International Centre for Numerical Methods in Engineering ([CIMNE](https://www.cimne.com)), [Polytechnic University of Catalonia](https://www.upc.edu/en/homepage), Spain
-- Numerical methods including finite element method, advanced discretization methods, numerical methods for PDEs, domain decomposition and large scale computing, *etc.*
-- Applications focus on computational structural mechanics and dynamics, continuum mechanics, fluid mechanics and dynamics, forming processes and electromagnetism, *etc.*
-- Thesis: Development of a numerical model for the transport of dust, [file in PDF](/media/yuyangMasterThesis.pdf) 
--->
-<p></font></p>
-<p><code>September 2011 - July 2015</code>
-<font size=2>
--  <strong>Bachelor of Non-woven Materials in Engineering, Soochow University, China </strong></p>
-<!-- 注释
-- *summa cum laude*
-- Engineering mechanics, polymeric chemistry & physics, textile materials, polymer structure & properties, synthetic fibers
-- Thesis: Intelligent wearable devices for textile sensory evaluation
--->
-<p></font></p>
-<hr />
-<h2 id="employment"><small>Employment</small></h2>
-<p><code>March 2024 - Now</code>
-<font size=3>
-- <strong>Assistant professor</strong></p>
+<h2 id="recruitment"><span style="color:rgb(220,0,0);font-size:32px;">Recruitment</span></h2>
+<p><font size=3></p>
 <ul>
-<li>Computational Media and Arts, Information Hub, <a href="https://hkust-gz.edu.cn">The Hong Kong University of Science and Technology (Guangzhou)</a>, China</li>
-<li>XR education, Data-driven methods (AI), HCI perception</li>
+<li>PhD &amp; Mphil students</li>
+<li>Research assistants &amp; Interns (those during gap year or seeking research training)
+</font>
+<font size=2></li>
 </ul>
-<p><code>March 2022 - March 2024</code>
-<font size=3>
-- <strong>Postdoctoral researcher</strong></p>
-<ul>
-<li>Computational Media and Arts, Information Hub, <a href="https://hkust-gz.edu.cn">The Hong Kong University of Science and Technology (Guangzhou)</a>, China</li>
-<li>Advisor: Prof. Pan Hui, IEEE Fellow, member of Academia Europaea</li>
-<li>XR, computer-human interaction</li>
-</ul>
-<p></font></p>
-<p><code>October 2019 - September 2020</code>
-<font size=3>
-- <strong>Visiting scholar</strong></p>
-<ul>
-<li>Institute for Information Management in Engineering (<a href="https://www.imi.kit.edu">IMI</a>), <a href="https://www.kit.edu/english/index.php">Karlsruhe Institute of Technology</a>, Germany</li>
-<li>Host: Prof. Jivka  Ovtcharova</li>
-<li>VR, interaction, fuzzy logic, user modelling, human factors</li>
-</ul>
-<p></font></p>
-<hr />
-<h2 id="funding-and-awards"><small>Funding and awards</small></h2>
-<p><code>October 2019 - September 2020</code>
-<font size=2>
-- <strong>Scholarship from the French-German institute for the industry of future</strong>
-</font></p>
-<p><code>January 2020 - June 2020</code>
-<font size=2>
-- <strong>Erasmus+ mobility grant from the HESAM Université</strong>
-</font></p>
-<p><code>July 2015</code>
-<font size=2>
-- <strong>Excellent Graduates of Soochow University</strong>
-</font></p>
-<p><code>November 2013</code>
-<font size=2>
-- <strong>National scholarship from the Ministry of Education of the PRC</strong>
+<p><strong>RedBird MPhil</strong> students in my group have the opportunity to develop their research skills with hands-on mentoring, and successful candidates are well-positioned for admission to our PhD program, with an advantage over direct applicants. Interested students are encouraged to reach out.<br>
+<strong>PhD applicants</strong> should have solid research experience aligning with our research interests.<br>
+<strong>Applicants</strong> with limited research experience, joining our group as an intern or research assistant can be a valuable option.
 </font></p>
 <hr />
 <h2 id="research-interests"><small>Research Interests</small></h2>
@@ -223,73 +191,19 @@
 <li>AI for Good</li>
 </ul>
 <p></font></p>
-<p>Find Our Publications in <a href="https://scholar.google.com/citations?user=D1HTbhEAAAAJ&amp;hl=zh-CN">Google Scholar.</a></p>
 <hr />
-<h2 id="i-am-hiring-students"><small>I am Hiring Students</small></h2>
-<p><font size=3></p>
-<ul>
-<li>PhD &amp; Mphil students</li>
-<li>Research assistants &amp; Interns (those seeking to gain experience)
-</font>
-<font size=2></li>
-</ul>
-<p><strong>RedBird MPhil</strong> students in my group have the opportunity to develop their research skills with hands-on mentoring, and successful candidates are well-positioned for admission to our PhD program, with an advantage over direct applicants. Interested students are encouraged to reach out.<br>
-<strong>PhD applicants</strong> should have solid research experience aligning with our research interests.<br>
-<strong>Applicants</strong> with limited research experience, joining our group as an intern or research assistant can be a valuable option.
-</font></p>
-<!-- 
-
-----
-##<small>Service</small>
-<font size=2>
-
-`Organizers or chairs`
-
-- Organizer IEEE VR Workshop on Datasets for Developing Intelligent XR Applications (Data4XR) since 2022, [online](https://sites.google.com/view/ieee-vr-data4xr/)
-- Organizer of BoF session, "Towards real-time evaluation of cyber-sickness in VR", April 2021, IEEE VR, [online](https://ieeevr.org/2021/program/bofs/)
-
-`Reviewers`
-
-- Reviewer of international conferences: IEEE VR, IEEE ISMAR, ACM VRST, AAAI, ACM MM
-- Reviewer of international journals: IEEE Transactions on Visualization and Computer Graphics, IJHCS, IJHCI
-
-</font>
-
-----
-
-
-##<small>Invited talk</small>
-<font size=2>
-
-- Intelligent naivgation in virtual reality. November 2021, ParisTech Elite Institute of Technology at Shanghai Jiao Tong University,  China    
-- Development of navigation techniques in virtual reality: towards customized interaction. December 2020, Hefei University of Technology, China, [online](http://www.hfut.edu.cn/info/1036/6935.htm)
-- Introduction to virtual reality. August 2018, the 2nd International Youth Innovation Conference, China
-
-</font>
-
 <div style="float:right">
     <img class="image2" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yywangvr&layout=compact&hide_border=true&langs_count=10">
 </div>
 
-##<small>Computer skills</small>
-
-
-<font size=2>
-
-- Language: C# (Unity3D), Python, Matlab, C++, Latex 
-- Parallel/distributed computing framework using OpenMP, Open MPI, [Ray](https://ray.io) 
-- AI programming framework
-
-</font>
-
-
-##<small>Publications</small>
-
-
-<script src="https://bibbase.org/service/mendeley/4b66b327-35ad-3956-a9a2-307331dd9988?jsonp=1?&owner=Wang,Yuyang&theme=default&fullnames=0">
-</script>
---->
-
+<h2 id="computer-skills"><small>Computer skills</small></h2>
+<p><font size=2></p>
+<ul>
+<li>Language: C# (Unity3D), Python, Matlab, C++, Latex </li>
+<li>Parallel/distributed computing framework using OpenMP, Open MPI, <a href="https://ray.io">Ray</a> </li>
+<li>AI programming framework</li>
+</ul>
+<p></font></p>
 <!-- 地球仪统计访客信息-->
 
 <!-- 访客统计：
@@ -378,5 +292,5 @@
 
 <!--
 MkDocs version : 1.4.3
-Build Date UTC : 2025-12-14 14:13:18.160785+00:00
+Build Date UTC : 2026-06-12 07:52:21.087094+00:00
 -->
