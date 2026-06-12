@@ -1,10 +1,17 @@
 site_name: Yuyang WANG
 nav:
     - Home: index.md
-    - Demo: demo.md
+    - Research: research.md
+    - Publications: publications.md
+    - Teaching: teaching.md
+    - Services: service.md
+    - Team: team.md
+#    - About: about.md
+
+
 
 # 主题切换的方法：
 # （1） conda install -c conda-forge mkdocs-bootswatch
 # （2） 进入：https://mkdocs.github.io/mkdocs-bootswatch/#flatly， 查看可以使用的主题
 theme:
-    name: lumen
+    name: flatly
