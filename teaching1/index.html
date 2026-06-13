@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>About - Yuyang WANG</title>
+        <title>Teaching - Yuyang WANG</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -42,8 +42,8 @@
                             <li class="navitem">
                                 <a href="../publications/" class="nav-link">Publications</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../teaching1/" class="nav-link">Teaching</a>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Teaching</a>
                             </li>
                             <li class="navitem">
                                 <a href="../service1/" class="nav-link">Services</a>
@@ -59,6 +59,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../publications/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../service1/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -77,22 +87,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#education" class="nav-link">Education</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#employment" class="nav-link">Employment</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#funding-and-awards" class="nav-link">Funding and awards</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#computer-skills" class="nav-link">Computer skills</a>
+            <li class="nav-item" data-level="2"><a href="#teaching" class="nav-link">Teaching</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -103,117 +98,174 @@
 
 <style type="text/css">
 
-/* 新增：全局正文字体（匹配HKUST Muli风格） */
+/* 全局正文：字体、基准字号、行高 */
 body {
     font-family: "Muli", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
 }
-/* 板块小标题加粗（Recent News、RECRUITMENT次级标题） */
-h2, h3 {
+
+h1 {
+    font-family: "Josefin Sans", Montserrat, "Muli", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 34px;
+    margin: 20px 0 10px 0;
+}
+
+h2 {
     font-family: "Muli", Arial, sans-serif;
     font-weight: 700;
-
+    font-size: 24px;
+    margin: 18px 0 8px 0;
+    color: #003366;
 }
-/* 红色招募醒目文字样式，直接调用class */
+
+h3 {
+    font-family: "Muli", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px 0 6px 0;
+    color: #003366;
+}
+
 .red-title {
     color: red;
     font-weight: 800;
     font-size: 1.3em;
 }
-/* 一级大标题RECRUITMENT */
-/* 替换Futura为免费开源几何粗体，彻底规避版权 */
-h1 {
-    font-family: "Josefin Sans", Montserrat, "Muli", Arial, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
+
+/* ========== Teaching 课程卡片 ========== */
+.course-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin: 1rem 0 1.5rem 0;
 }
+
+.course-card {
+    display: flex;
+    align-items: stretch;
+    background: #fff;
+    border: 1px solid #e8ecf0;
+    border-radius: 6px;
+    border-left: 4px solid #003366;
+    overflow: hidden;
+}
+
+.course-card:nth-child(odd)  { border-left-color: #003366; }
+.course-card:nth-child(even) { border-left-color: #18BC9C; }
+
+.course-code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 142px;
+    padding: 0.55rem 1rem;
+    font-family: "Josefin Sans", Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.course-card:nth-child(odd)  .course-code { background: #003366; }
+.course-card:nth-child(even) .course-code { background: #18BC9C; }
+
+.course-body {
+    flex: 1;
+    padding: 0.5rem 0.85rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.course-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #2C3E50;
+    margin-bottom: 0.2rem;
+    line-height: 1.35;
+}
+
+.course-terms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+
+.course-term {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: #7f8c8d;
+    background: #f2f4f6;
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.2px;
+}
+
 </style>
 
-<h2 id="education"><small>Education</small></h2>
-<p><code>November 2017 - October 2021</code>
-<font size=2>
-- <strong>PhD in Computer Science, Arts et Metiers ParisTech, France</strong></p>
-<!-- 注释
-- [Image institute](http://institutimage.ensam.eu/homepage-institut-image-102267.kjsp?RH=1417091979616&RF=1417092040212) , [Arts et metiers institute of technology](https://artsetmetiers.fr), France
-- Virtual reality (VR), navigation/locomotion, interaction, cybersickness, cognitive workload, subjective evaluation, optimal control, data-driven modeling, deep learning
-- Thesis: Intelligent navigation in virtual reality (defended: [video](https://youtu.be/JGA4uBs61dc))
--->
-<p></font></p>
-<p><code>September 2015 - July 2017</code>
-<font size=2>
-- <strong>Master on Numerical Methods in Engineering, UPC BarcelonaTech, Spain</strong></p>
-<!-- 注释
-- International Centre for Numerical Methods in Engineering ([CIMNE](https://www.cimne.com)), [Polytechnic University of Catalonia](https://www.upc.edu/en/homepage), Spain
-- Numerical methods including finite element method, advanced discretization methods, numerical methods for PDEs, domain decomposition and large scale computing, *etc.*
-- Applications focus on computational structural mechanics and dynamics, continuum mechanics, fluid mechanics and dynamics, forming processes and electromagnetism, *etc.*
-- Thesis: Development of a numerical model for the transport of dust, [file in PDF](/media/yuyangMasterThesis.pdf) 
--->
-<p></font></p>
-<p><code>September 2011 - July 2015</code>
-<font size=2>
--  <strong>Bachelor of Non-woven Materials in Engineering, Soochow University, China </strong></p>
-<!-- 注释
-- *summa cum laude*
-- Engineering mechanics, polymeric chemistry & physics, textile materials, polymer structure & properties, synthetic fibers
-- Thesis: Intelligent wearable devices for textile sensory evaluation
--->
-<p></font></p>
-<hr />
-<h2 id="employment"><small>Employment</small></h2>
-<p><code>March 2024 - Now</code>
-<font size=3>
-- <strong>Assistant professor</strong></p>
-<ul>
-<li>Computational Media and Arts, Information Hub, <a href="https://hkust-gz.edu.cn">The Hong Kong University of Science and Technology (Guangzhou)</a>, China</li>
-<li>XR education, Data-driven methods (AI), HCI perception</li>
-</ul>
-<p><code>March 2022 - March 2024</code>
-<font size=3>
-- <strong>Postdoctoral researcher</strong></p>
-<ul>
-<li>Computational Media and Arts, Information Hub, <a href="https://hkust-gz.edu.cn">The Hong Kong University of Science and Technology (Guangzhou)</a>, China</li>
-<li>Advisor: Prof. Pan Hui, IEEE Fellow, member of Academia Europaea</li>
-<li>XR, computer-human interaction</li>
-</ul>
-<p></font></p>
-<p><code>October 2019 - September 2020</code>
-<font size=3>
-- <strong>Visiting scholar</strong></p>
-<ul>
-<li>Institute for Information Management in Engineering (<a href="https://www.imi.kit.edu">IMI</a>), <a href="https://www.kit.edu/english/index.php">Karlsruhe Institute of Technology</a>, Germany</li>
-<li>Host: Prof. Jivka  Ovtcharova</li>
-<li>VR, interaction, fuzzy logic, user modelling, human factors</li>
-</ul>
-<p></font></p>
-<hr />
-<h2 id="funding-and-awards"><small>Funding and awards</small></h2>
-<p><code>October 2019 - September 2020</code>
-<font size=2>
-- <strong>Scholarship from the French-German institute for the industry of future</strong>
-</font></p>
-<p><code>January 2020 - June 2020</code>
-<font size=2>
-- <strong>Erasmus+ mobility grant from the HESAM Université</strong>
-</font></p>
-<p><code>July 2015</code>
-<font size=2>
-- <strong>Excellent Graduates of Soochow University</strong>
-</font></p>
-<p><code>November 2013</code>
-<font size=2>
-- <strong>National scholarship from the Ministry of Education of the PRC</strong>
-</font></p>
-<div style="float:right">
-    <img class="image2" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yywangvr&layout=compact&hide_border=true&langs_count=10">
+<h2 id="teaching">Teaching</h2>
+<div class="course-grid">
+
+<div class="course-card">
+  <div class="course-code">CMAA5041</div>
+  <div class="course-body">
+    <div class="course-title">Experiment Design for Protocol Optimization</div>
+    <div class="course-terms">
+      <span class="course-term">2025–26 Spring</span>
+    </div>
+  </div>
 </div>
 
-<h2 id="computer-skills"><small>Computer skills</small></h2>
-<p><font size=2></p>
-<ul>
-<li>Language: C# (Unity3D), Python, Matlab, C++, Latex </li>
-<li>Parallel/distributed computing framework using OpenMP, Open MPI, <a href="https://ray.io">Ray</a> </li>
-<li>AI programming framework</li>
-</ul>
-<p></font></p></div>
+<div class="course-card">
+  <div class="course-code">CMAA6018A</div>
+  <div class="course-body">
+    <div class="course-title">Independent Study</div>
+    <div class="course-terms">
+      <span class="course-term">2024–25 Spring</span>
+      <span class="course-term">2025–26 Fall</span>
+      <span class="course-term">2025–26 Spring</span>
+    </div>
+  </div>
+</div>
+
+<div class="course-card">
+  <div class="course-code">CMAA6019A</div>
+  <div class="course-body">
+    <div class="course-title">Research Design and Optimization</div>
+    <div class="course-terms">
+      <span class="course-term">2024–25 Spring</span>
+    </div>
+  </div>
+</div>
+
+<div class="course-card">
+  <div class="course-code">INFH5000</div>
+  <div class="course-body">
+    <div class="course-title">Information Science and Technology: Essentials and Trends</div>
+    <div class="course-terms">
+      <span class="course-term">2025–26 Fall (CMA)</span>
+      <span class="course-term">2025–26 Spring (CMA)</span>
+    </div>
+  </div>
+</div>
+
+<div class="course-card">
+  <div class="course-code">CMAA6101</div>
+  <div class="course-body">
+    <div class="course-title">CMA Seminar</div>
+    <div class="course-terms">
+      <span class="course-term">2025–26 Fall</span>
+    </div>
+  </div>
+</div>
+
+</div></div>
             </div>
         </div>
 

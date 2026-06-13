@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>About - Yuyang WANG</title>
+        <title>Research - Yuyang WANG</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -36,8 +36,8 @@
                             <li class="navitem">
                                 <a href="../index1/" class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../research1/" class="nav-link">Research</a>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Research</a>
                             </li>
                             <li class="navitem">
                                 <a href="../publications/" class="nav-link">Publications</a>
@@ -59,6 +59,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../index1/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../publications/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -77,22 +87,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#education" class="nav-link">Education</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#employment" class="nav-link">Employment</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#funding-and-awards" class="nav-link">Funding and awards</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#computer-skills" class="nav-link">Computer skills</a>
+            <li class="nav-item" data-level="2"><a href="#immersive-human-machine-intelligence" class="nav-link">Immersive Human-Machine Intelligence</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -103,117 +98,159 @@
 
 <style type="text/css">
 
-/* 新增：全局正文字体（匹配HKUST Muli风格） */
+/* 全局正文：字体、基准字号、行高 */
 body {
     font-family: "Muli", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
 }
-/* 板块小标题加粗（Recent News、RECRUITMENT次级标题） */
-h2, h3 {
+
+h1 {
+    font-family: "Josefin Sans", Montserrat, "Muli", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 34px;
+    margin: 20px 0 10px 0;
+}
+
+h2 {
     font-family: "Muli", Arial, sans-serif;
     font-weight: 700;
-
+    font-size: 24px;
+    margin: 18px 0 8px 0;
+    color: #003366;
 }
-/* 红色招募醒目文字样式，直接调用class */
+
+h3 {
+    font-family: "Muli", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px 0 6px 0;
+    color: #003366;
+}
+
 .red-title {
     color: red;
     font-weight: 800;
     font-size: 1.3em;
 }
-/* 一级大标题RECRUITMENT */
-/* 替换Futura为免费开源几何粗体，彻底规避版权 */
-h1 {
-    font-family: "Josefin Sans", Montserrat, "Muli", Arial, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
+
+/* ========== Research 支柱卡片 ========== */
+.research-intro {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
 }
+
+.research-intro strong {
+    color: #003366;
+}
+
+.pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.pillar-card {
+    background: #fff;
+    border: 1px solid #e8ecf0;
+    border-radius: 6px;
+    border-top: 3px solid #003366;
+    padding: 1rem 1rem 0.85rem 1rem;
+    text-align: center;
+}
+
+.pillar-card:nth-child(1) { border-top-color: #003366; }
+.pillar-card:nth-child(2) { border-top-color: #18BC9C; }
+.pillar-card:nth-child(3) { border-top-color: #E67E22; }
+
+.pillar-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.35rem;
+}
+
+.pillar-title {
+    font-family: "Josefin Sans", Montserrat, "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: #003366;
+    margin-bottom: 0.35rem;
+    line-height: 1.3;
+}
+
+.pillar-card:nth-child(1) .pillar-title { color: #003366; }
+.pillar-card:nth-child(2) .pillar-title { color: #18BC9C; }
+.pillar-card:nth-child(3) .pillar-title { color: #E67E22; }
+
+.pillar-desc {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.45;
+}
+
+.research-image {
+    text-align: center;
+    margin: 1.2rem 0;
+}
+
+.research-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.research-outro {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+    .pillars-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 </style>
 
-<h2 id="education"><small>Education</small></h2>
-<p><code>November 2017 - October 2021</code>
-<font size=2>
-- <strong>PhD in Computer Science, Arts et Metiers ParisTech, France</strong></p>
-<!-- 注释
-- [Image institute](http://institutimage.ensam.eu/homepage-institut-image-102267.kjsp?RH=1417091979616&RF=1417092040212) , [Arts et metiers institute of technology](https://artsetmetiers.fr), France
-- Virtual reality (VR), navigation/locomotion, interaction, cybersickness, cognitive workload, subjective evaluation, optimal control, data-driven modeling, deep learning
-- Thesis: Intelligent navigation in virtual reality (defended: [video](https://youtu.be/JGA4uBs61dc))
--->
-<p></font></p>
-<p><code>September 2015 - July 2017</code>
-<font size=2>
-- <strong>Master on Numerical Methods in Engineering, UPC BarcelonaTech, Spain</strong></p>
-<!-- 注释
-- International Centre for Numerical Methods in Engineering ([CIMNE](https://www.cimne.com)), [Polytechnic University of Catalonia](https://www.upc.edu/en/homepage), Spain
-- Numerical methods including finite element method, advanced discretization methods, numerical methods for PDEs, domain decomposition and large scale computing, *etc.*
-- Applications focus on computational structural mechanics and dynamics, continuum mechanics, fluid mechanics and dynamics, forming processes and electromagnetism, *etc.*
-- Thesis: Development of a numerical model for the transport of dust, [file in PDF](/media/yuyangMasterThesis.pdf) 
--->
-<p></font></p>
-<p><code>September 2011 - July 2015</code>
-<font size=2>
--  <strong>Bachelor of Non-woven Materials in Engineering, Soochow University, China </strong></p>
-<!-- 注释
-- *summa cum laude*
-- Engineering mechanics, polymeric chemistry & physics, textile materials, polymer structure & properties, synthetic fibers
-- Thesis: Intelligent wearable devices for textile sensory evaluation
--->
-<p></font></p>
-<hr />
-<h2 id="employment"><small>Employment</small></h2>
-<p><code>March 2024 - Now</code>
-<font size=3>
-- <strong>Assistant professor</strong></p>
-<ul>
-<li>Computational Media and Arts, Information Hub, <a href="https://hkust-gz.edu.cn">The Hong Kong University of Science and Technology (Guangzhou)</a>, China</li>
-<li>XR education, Data-driven methods (AI), HCI perception</li>
-</ul>
-<p><code>March 2022 - March 2024</code>
-<font size=3>
-- <strong>Postdoctoral researcher</strong></p>
-<ul>
-<li>Computational Media and Arts, Information Hub, <a href="https://hkust-gz.edu.cn">The Hong Kong University of Science and Technology (Guangzhou)</a>, China</li>
-<li>Advisor: Prof. Pan Hui, IEEE Fellow, member of Academia Europaea</li>
-<li>XR, computer-human interaction</li>
-</ul>
-<p></font></p>
-<p><code>October 2019 - September 2020</code>
-<font size=3>
-- <strong>Visiting scholar</strong></p>
-<ul>
-<li>Institute for Information Management in Engineering (<a href="https://www.imi.kit.edu">IMI</a>), <a href="https://www.kit.edu/english/index.php">Karlsruhe Institute of Technology</a>, Germany</li>
-<li>Host: Prof. Jivka  Ovtcharova</li>
-<li>VR, interaction, fuzzy logic, user modelling, human factors</li>
-</ul>
-<p></font></p>
-<hr />
-<h2 id="funding-and-awards"><small>Funding and awards</small></h2>
-<p><code>October 2019 - September 2020</code>
-<font size=2>
-- <strong>Scholarship from the French-German institute for the industry of future</strong>
-</font></p>
-<p><code>January 2020 - June 2020</code>
-<font size=2>
-- <strong>Erasmus+ mobility grant from the HESAM Université</strong>
-</font></p>
-<p><code>July 2015</code>
-<font size=2>
-- <strong>Excellent Graduates of Soochow University</strong>
-</font></p>
-<p><code>November 2013</code>
-<font size=2>
-- <strong>National scholarship from the Ministry of Education of the PRC</strong>
-</font></p>
-<div style="float:right">
-    <img class="image2" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yywangvr&layout=compact&hide_border=true&langs_count=10">
+<h2 id="immersive-human-machine-intelligence">Immersive Human-Machine Intelligence</h2>
+<p class="research-intro">
+Our research in <strong>Immersive Human-Machine Intelligence</strong> spans three integrated pillars:
+</p>
+
+<div class="pillars-grid">
+
+<div class="pillar-card">
+  <div class="pillar-title">VR Sickness Modeling</div>
+  <div class="pillar-desc">Dynamically predict discomfort from multimodal inputs using computational models grounded in neuroscience.</div>
 </div>
 
-<h2 id="computer-skills"><small>Computer skills</small></h2>
-<p><font size=2></p>
-<ul>
-<li>Language: C# (Unity3D), Python, Matlab, C++, Latex </li>
-<li>Parallel/distributed computing framework using OpenMP, Open MPI, <a href="https://ray.io">Ray</a> </li>
-<li>AI programming framework</li>
-</ul>
-<p></font></p></div>
+<div class="pillar-card">
+  <div class="pillar-title">Closed-loop Interaction</div>
+  <div class="pillar-desc">Utilize real-time physiological sensing (EEG, HRV, EDA) to drive adaptive control in immersive systems.</div>
+</div>
+
+<div class="pillar-card">
+  <div class="pillar-title">XR Applications</div>
+  <div class="pillar-desc">Enhance immersive education, digital art, and human potential through cutting-edge extended reality.</div>
+</div>
+
+</div>
+
+<div class="research-image">
+  <img src="/media/self-intro.png" width="500" height="auto" alt="Research overview">
+</div>
+
+<p class="research-outro">
+Guided by human-centered intelligence, we bridge computational neuroscience and immersive technology to augment human experiences.
+</p></div>
             </div>
         </div>
 
