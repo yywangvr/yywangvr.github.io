@@ -25,6 +25,7 @@ h2 {
     font-weight: 700; /* 加粗 */
     font-size: 24px;
     margin: 18px 0 8px 0;
+    color: #003366;
 }
 
 /* 三级标题 h3 */
@@ -33,6 +34,7 @@ h3 {
     font-weight: 700; /* 加粗 */
     font-size: 20px;
     margin: 15px 0 6px 0;
+    color: #003366;
 }
 
 /* 红色醒目文字自定义样式 */
@@ -47,7 +49,7 @@ h3 {
 ---
 ## Selected Publications
 
-More Publications in [Google Scholar.](https://scholar.google.com/citations?user=D1HTbhEAAAAJ&hl=zh-CN)
+More Publications in [🔗Google Scholar.](https://scholar.google.com/citations?user=D1HTbhEAAAAJ&hl=zh-CN)
 
 <!-- Mendeley
 <script src="https://bibbase.org/service/mendeley/4b66b327-35ad-3956-a9a2-307331dd9988?jsonp=1?&owner=Wang,Yuyang&theme=default&fullnames=0">

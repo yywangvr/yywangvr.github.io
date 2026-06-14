@@ -23,6 +23,7 @@ h2 {
     font-weight: 700; /* 加粗 */
     font-size: 24px;
     margin: 18px 0 8px 0;
+    color: #003366;
 }
 
 /* 三级标题 h3 */
@@ -31,6 +32,7 @@ h3 {
     font-weight: 700; /* 加粗 */
     font-size: 20px;
     margin: 15px 0 6px 0;
+    color: #003366;
 }
 
 /* 红色醒目文字自定义样式 */
@@ -46,16 +48,21 @@ h3 {
 ## Immersive Human-Machine Intelligence
 
 
-Our research in __Immersive Human-Machine Intelligence__ spans three integrated pillars: __VR Sickness Modeling__ to dynamically predict discomfort from multimodal inputs, __Closed-loop Interaction__ utilizing real-time physiological sensing for adaptive control, and __XR Applications__ that enhance immersive education, digital art, and human potential. Guided by human-centered intelligence, we bridge computational neuroscience and immersive technology to augment human experiences.
+Our research in __Immersive Human-Machine Intelligence__ spans three integrated pillars: 
+
+- __VR Sickness Modeling__ to dynamically predict discomfort from multimodal inputs
+- __Closed-loop Interaction__ utilizing real-time physiological sensing for adaptive control
+- __XR Applications__ that enhance immersive education, digital art, and human potential
 
 <div align="center">
 <img src="/media/self-intro.png" width="500" height="auto">
 </div>
 
+Guided by human-centered intelligence, we bridge computational neuroscience and immersive technology to augment human experiences.
+
+<!-- 注释
+
 ## Cybersickness
-
-
-
 
 Taking cybersickness mitigation as a concrete application, we aim to move beyond traditional, disruptive subjective questionnaires (like the SSQ) toward continuous, objective tracking. We investigate three core research questions:
 
@@ -67,6 +74,6 @@ Taking cybersickness mitigation as a concrete application, we aim to move beyond
 <img src="/media/loopv2.png" width="400" height="auto">
 </div>
 
-
+-->
 
 

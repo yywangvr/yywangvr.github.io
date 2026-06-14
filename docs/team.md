@@ -24,6 +24,7 @@ h2 {
     font-weight: 700; /* 加粗 */
     font-size: 24px;
     margin: 18px 0 8px 0;
+    color: #003366;
 }
 
 /* 三级标题 h3 */
@@ -32,6 +33,7 @@ h3 {
     font-weight: 700; /* 加粗 */
     font-size: 20px;
     margin: 15px 0 6px 0;
+    color: #003366;
 }
 
 /* 红色醒目文字自定义样式 */
@@ -45,7 +47,7 @@ h3 {
 
 
 ----
-## Phd Student 
+## Phd Student
 
 - Primary: Tangyao LI, Yitong ZHU, Bojing HOU, Shirao YANG, Yufei ZHAO, Langjing SHI, Yizhe NIE
 - Co-supervision: Lina XU, Xingkai WANG, Zhizhuo YIN, Guanxuan JIANG
@@ -69,9 +71,9 @@ h3 {
 
 ## Research Assistant
 
-Yiming Wu, Yuxuan Bai
+Zining WANG, Yiming WU, Yuxuan BAI
 
 ----
 
 ## Alumni
-- Co-supervision: Huawei Tu
+- Co-supervision: Huawei TU

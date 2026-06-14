@@ -10,6 +10,7 @@ body {
 h2, h3 {
     font-family: "Muli", Arial, sans-serif;
     font-weight: 700;
+    
 }
 /* 红色招募醒目文字样式，直接调用class */
 .red-title {

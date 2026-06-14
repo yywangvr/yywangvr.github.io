@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Team - Yuyang WANG</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/docco.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Yuyang WANG</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../index1/" class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../bio1/" class="nav-link">Bio</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../research1/" class="nav-link">Research</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../publications/" class="nav-link">Publications</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../teaching1/" class="nav-link">Teaching</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../service1/" class="nav-link">Services</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Team</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../service1/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#our-team" class="nav-link">Our Team</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<style type="text/css">
+
+body {
+    font-family: "Muli", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: "Josefin Sans", Montserrat, "Muli", Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 34px;
+    margin: 20px 0 10px 0;
+}
+
+h2 {
+    font-family: "Muli", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 18px 0 8px 0;
+    color: #003366;
+}
+
+h3 {
+    font-family: "Muli", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px 0 6px 0;
+    color: #003366;
+}
+
+.red-title {
+    color: red;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+/* ========== 团队卡片（紧凑版） ========== */
+.team-section {
+    margin: 1rem 0 1.5rem 0;
+}
+
+.team-section-title {
+    font-family: "Josefin Sans", Montserrat, "Muli", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #003366;
+    margin-bottom: 0.6rem;
+    color: #003366;
+}
+
+.team-section-subtitle {
+    font-family: "Muli", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #95a5a6;
+    margin: 0.6rem 0 0.35rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.5rem;
+}
+
+.member-card {
+    background: #fff;
+    border: 1px solid #ecf0f1;
+    border-radius: 4px;
+    padding: 0.5rem 0.35rem;
+    text-align: center;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.member-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.member-card.co-supervision {
+    opacity: 0.82;
+    background: #fafbfc;
+}
+
+.member-avatar {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin: 0 auto 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.75rem;
+    font-family: "Josefin Sans", Montserrat, sans-serif;
+    letter-spacing: 0.3px;
+}
+
+.member-name {
+    font-weight: 600;
+    font-size: 0.72rem;
+    color: #2C3E50;
+    margin-bottom: 0.15rem;
+    line-height: 1.3;
+}
+
+.member-badge {
+    display: inline-block;
+    font-size: 0.55rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding: 1px 5px;
+    border-radius: 8px;
+    color: #fff;
+    background: #003366;
+}
+
+.member-badge.mphil { background: #18BC9C; }
+.member-badge.co { background: #bdc3c7; }
+.member-badge.ra { background: #E67E22; }
+.member-badge.ug { background: #3498DB; }
+.member-badge.alumni { background: #95a5a6; }
+
+/* 介绍文字 */
+.team-intro {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+/* Alumni 列表 */
+.alumni-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.3rem 0 0.6rem 0;
+}
+
+.alumni-list li {
+    font-family: "Muli", Arial, sans-serif;
+    font-size: 14px;
+    color: #2C3E50;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #ecf0f1;
+    line-height: 1.5;
+}
+
+.alumni-list li:last-child {
+    border-bottom: none;
+}
+
+.alumni-dest {
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+</style>
+
+<h1 id="our-team">Our Team</h1>
+<p class="team-intro">
+A multidisciplinary group exploring the frontiers of immersive human-machine intelligence.
+</p>
+
+<!-- PhD Students -->
+<div class="team-section">
+
+<h2 class="team-section-title">PhD Students</h2>
+
+<h3 class="team-section-subtitle">Primary Supervision</h3>
+<div class="team-grid">
+
+<div class="member-card">
+  <div class="member-avatar" style="background:#003366;">TL</div>
+  <div class="member-name">Tangyao LI</div>
+  <span class="member-badge">PhD</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#18BC9C;">YZ</div>
+  <div class="member-name">Yitong ZHU</div>
+  <span class="member-badge">PhD</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#003366;">BH</div>
+  <div class="member-name">Bojing HOU</div>
+  <span class="member-badge">PhD</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#18BC9C;">SY</div>
+  <div class="member-name">Shirao YANG</div>
+  <span class="member-badge">PhD</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#003366;">YZ</div>
+  <div class="member-name">Yufei ZHAO</div>
+  <span class="member-badge">PhD</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#18BC9C;">LS</div>
+  <div class="member-name">Langjing SHI</div>
+  <span class="member-badge">PhD</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#003366;">YN</div>
+  <div class="member-name">Yizhe NIE</div>
+  <span class="member-badge">PhD</span>
+</div>
+
+</div>
+
+<h3 class="team-section-subtitle">Co-supervision</h3>
+<div class="team-grid">
+
+<div class="member-card co-supervision">
+  <div class="member-avatar" style="background:#18BC9C;">LX</div>
+  <div class="member-name">Lina XU</div>
+  <span class="member-badge co">Co-sup</span>
+</div>
+<div class="member-card co-supervision">
+  <div class="member-avatar" style="background:#003366;">XW</div>
+  <div class="member-name">Xingkai WANG</div>
+  <span class="member-badge co">Co-sup</span>
+</div>
+<div class="member-card co-supervision">
+  <div class="member-avatar" style="background:#18BC9C;">ZY</div>
+  <div class="member-name">Zhizhuo YIN</div>
+  <span class="member-badge co">Co-sup</span>
+</div>
+<div class="member-card co-supervision">
+  <div class="member-avatar" style="background:#003366;">GJ</div>
+  <div class="member-name">Guanxuan JIANG</div>
+  <span class="member-badge co">Co-sup</span>
+</div>
+
+</div>
+</div>
+
+<!-- MPhil Students -->
+<div class="team-section">
+
+<h2 class="team-section-title">MPhil Students</h2>
+
+<h3 class="team-section-subtitle">Primary Supervision</h3>
+<div class="team-grid">
+
+<div class="member-card">
+  <div class="member-avatar" style="background:#003366;">XZ</div>
+  <div class="member-name">Ximeng ZHANG</div>
+  <span class="member-badge mphil">MPhil</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#18BC9C;">YS</div>
+  <div class="member-name">Yanzeng SONG</div>
+  <span class="member-badge mphil">MPhil</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#003366;">JQ</div>
+  <div class="member-name">Jinfan QIAN</div>
+  <span class="member-badge mphil">MPhil</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#18BC9C;">XQ</div>
+  <div class="member-name">Xinyue QI</div>
+  <span class="member-badge mphil">MPhil</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#003366;">FS</div>
+  <div class="member-name">Feiya SHU</div>
+  <span class="member-badge mphil">MPhil</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#18BC9C;">MC</div>
+  <div class="member-name">Milica ČANIĆ</div>
+  <span class="member-badge mphil">MPhil</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#003366;">FS</div>
+  <div class="member-name">Fabian Wangsa SAPUTRA</div>
+  <span class="member-badge mphil">MPhil</span>
+</div>
+
+</div>
+
+<h3 class="team-section-subtitle">Co-supervision</h3>
+<div class="team-grid">
+
+<div class="member-card co-supervision">
+  <div class="member-avatar" style="background:#18BC9C;">KF</div>
+  <div class="member-name">Kairong FANG</div>
+  <span class="member-badge co">Co-sup</span>
+</div>
+<div class="member-card co-supervision">
+  <div class="member-avatar" style="background:#003366;">ZC</div>
+  <div class="member-name">Ziyi CHEN</div>
+  <span class="member-badge co">Co-sup</span>
+</div>
+
+</div>
+</div>
+
+<!-- Undergraduates -->
+<div class="team-section">
+
+<h2 class="team-section-title">Undergraduates</h2>
+
+<h3 class="team-section-subtitle">Primary Supervision</h3>
+<div class="team-grid">
+
+<div class="member-card">
+  <div class="member-avatar" style="background:#003366;">WX</div>
+  <div class="member-name">Wenhan XU</div>
+  <span class="member-badge ug">UG</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#18BC9C;">XW</div>
+  <div class="member-name">Xinzhi WU</div>
+  <span class="member-badge ug">UG</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#003366;">YW</div>
+  <div class="member-name">Yongshan WU</div>
+  <span class="member-badge ug">UG</span>
+</div>
+
+</div>
+</div>
+
+<!-- Research Assistants -->
+<div class="team-section">
+
+<h2 class="team-section-title">Research Assistants</h2>
+
+<div class="team-grid">
+
+<div class="member-card">
+  <div class="member-avatar" style="background:#003366;">ZW</div>
+  <div class="member-name">Zining WANG</div>
+  <span class="member-badge ra">RA</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#18BC9C;">YW</div>
+  <div class="member-name">Yiming WU</div>
+  <span class="member-badge ra">RA</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#003366;">YB</div>
+  <div class="member-name">Yuxuan BAI</div>
+  <span class="member-badge ra">RA</span>
+</div>
+
+</div>
+</div>
+
+<!-- Alumni -->
+<div class="team-section">
+
+<h2 class="team-section-title">Alumni</h2>
+
+<h3 class="team-section-subtitle">Co-supervision</h3>
+<ul class="alumni-list">
+  <li>Huawei TU, MPhil, 2023 Fall–2025 Summer <span class="alumni-dest">→ Guangzhou University</span></li>
+</ul>
+
+</div></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
