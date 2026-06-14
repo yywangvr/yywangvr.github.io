@@ -1,13 +1,13 @@
 site_name: Yuyang WANG
 nav:
-    - Home: index1.md
-    - Bio: bio1.md
-    - Research: research1.md
+    - Home: index.md
+    - Bio: bio.md
+    - Research: research.md
     - Publications: publications.md
-    - Teaching: teaching1.md
-    - Services: service1.md
-    - Team: team1.md
-#    - About: about.md
+    - Teaching: teaching.md
+    - Services: service.md
+    - Team: team.md
+
 
 
 
