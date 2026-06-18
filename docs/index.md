@@ -148,19 +148,19 @@ h2 {
 
 <div class="recruit-box">
 
-<p>Our group offers sufficient funding, abundant computing resources, and close collaborations with domain researchers. <span class="recruit-emphasis">We are actively recruiting highly motivated <strong>PhD, Red Bird MPhil and RA</strong> with strong backgrounds in computer science, data science, applied mathematics, electronic engineering, or related fields.</span></p>
+<p>Our group offers sufficient funding, abundant computing resources, and close collaborations with domain researchers. <span class="recruit-emphasis">We are actively recruiting highly motivated <strong>PhDs and RAs</strong> with strong backgrounds in computer science, data science, applied mathematics, electronic engineering, or related fields.</span> We also welcome students admitted to the <strong>Red Bird MPhil</strong> program to join our group. </p>
 
 <ul>
-  <li><strong>Red Bird MPhil</strong> students have the opportunity to develop their research skills with hands-on mentoring, and successful candidates are well-positioned for our PhD program, with an advantage over external applicants.</li>
   <li><strong>PhD</strong> candidates should have solid research experience aligning with our research interests.</li>
   <li><strong>Applicants</strong> with limited research experience, joining our group as RA can be a valuable option.</li>
+    <li><strong>For Red Bird MPhil students joining our group:</strong> you will receive hands-on mentoring to build competencies aligned with our research focus - all backgrounds welcome, upon successful interview. Outstanding performers will have an advantage over external applicants for the PhD program.</li>
 </ul>
 
-<p>Solid programming and/or mathematical skills are required.</p>
+<p>Solid mathematical and/or programming skills are required.</p>
 
 <p>🔔 To apply, please send an email to me, attaching your CV 📝 along with highlighted strengths and qualifications.</p>
 
-<p>申请者请发送邮件给我，附上简历并突出你的优势和资质。</p>
+<p>🔔 申请者请发送邮件给我，附上简历📝 并突出你的优势和资质。</p>
 
 </div>
 

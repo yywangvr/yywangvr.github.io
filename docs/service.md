@@ -232,6 +232,14 @@ h3 {
 <div class="talks-section">
 
 <div class="talk-card">
+  <div class="talk-badge">Aug 2025</div>
+  <div class="talk-body">
+    <div class="talk-title">Towards intelligent navigation in virtual reality: from measurement to lightweight prediction</div>
+    <div class="talk-meta">FRSE Workshop on Engineering the Next Dimension: Software, Spatial Intelligence, and Extended Reality</div>
+  </div>
+</div>
+
+<div class="talk-card">
   <div class="talk-badge">Sep 2022</div>
   <div class="talk-body">
     <div class="talk-title">Towards intelligent navigation in virtual reality</div>
@@ -255,12 +263,5 @@ h3 {
   </div>
 </div>
 
-<div class="talk-card">
-  <div class="talk-badge">Aug 2018</div>
-  <div class="talk-body">
-    <div class="talk-title">Introduction to virtual reality</div>
-    <div class="talk-meta">The 2nd International Youth Innovation Conference, China</div>
-  </div>
-</div>
 
 </div>
