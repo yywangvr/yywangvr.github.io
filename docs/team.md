@@ -241,6 +241,12 @@ A multidisciplinary group exploring the frontiers of immersive human-machine int
   <span class="member-badge co">Co-sup</span>
 </div>
 
+<div class="member-card co-supervision">
+  <div class="member-avatar" style="background:#18BC9C;">SY</div>
+  <div class="member-name">Shaobo YAN</div>
+  <span class="member-badge co">Co-sup</span>
+</div>
+
 </div>
 </div>
 
