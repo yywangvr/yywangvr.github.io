@@ -151,9 +151,11 @@ h2 {
 <p>Our group offers sufficient funding, abundant computing resources, and close collaborations with domain researchers. <span class="recruit-emphasis">We are actively recruiting highly motivated <strong>PhDs and RAs</strong> with strong backgrounds in computer science, data science, applied mathematics, electronic engineering, or related fields.</span> We also welcome students admitted to the <strong>Red Bird MPhil</strong> program to join our group. </p>
 
 <ul>
-  <li><strong>PhD</strong> candidates should have solid research experience aligning with our research interests.</li>
-  <li><strong>Applicants</strong> with limited research experience, joining our group as RA can be a valuable option.</li>
-    <li><strong>For Red Bird MPhil students joining our group:</strong> you will receive hands-on mentoring to build competencies aligned with our research focus - all backgrounds welcome, upon successful interview. Outstanding performers will have an advantage over external applicants for the PhD program.</li>
+  <li><strong>PhD</strong> applicants should have solid research experience aligned with our research interests.</li>
+  <li><strong>Applicants</strong> with limited research experience may join our group as RA to build research capabilities.</li>
+  <li><strong>Red Bird MPhil students joining our group:</strong> you will receive hands-on mentoring to develop expertise matching our research focus - all backgrounds welcome, upon successful interview. Outstanding performers will receive priority over over external applicants for the PhD program.</li>
+  <li><strong>Internal UG students at Year 2+</strong> are welcome to take part in our lab research via the X Program, subject to project vacancies.</li>
+
 </ul>
 
 <p>Solid mathematical and/or programming skills are required.</p>

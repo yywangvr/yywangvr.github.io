@@ -104,7 +104,9 @@ h2 {
 <div class="research-box">
 
 <ul>
+
   <li><strong>广东省</strong>区域联合基金，青年基金项目 &mdash; 沉浸式VR晕动症的可解释性仿真建模研究，2025-11 至 2028-10，<strong>主持</strong></li>
+  <li><strong>广东省</strong>教育厅，特色创新项目 &mdash; 融合先验音效约束的低光流VR视频协同生成与晕动症缓解研究，2026-10 至 2028-09，<strong>主持</strong></li>
   <li><strong>广东省</strong>教育科学规划领导小组，教育科学规划项目（高等教育专项）&mdash; 面向高校艺术教育的人工智能技术实践和研究，2025-01 至 2026-12，<strong>主持</strong></li>
   <li><strong>广州市</strong>科技局，基础研究计划 &mdash; 面向教学场景的虚拟现实技术设计与优化，2025-01 至 2026-12，<strong>主持</strong></li>
   <li><strong>广州市</strong>博士后专项研究经费 &mdash; 基于扩展现实（XR）的教育辅助系统的应用开发，2022-04 至 2024-04，已完成，<strong>主持</strong></li>
