@@ -58,3 +58,11 @@ More Publications in [🔗Google Scholar.](https://scholar.google.com/citations?
 
 <!-- Zotero-->
 <script src="https://bibbase.org/show?bib=https%3A%2F%2Fbibbase.org%2Fzotero-mypublications%2Fyywangvr&jsonp=1"></script>
+
+---
+
+## Patents
+
+<!-- Zotero-->
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fusers%2F4561168%2Fcollections%2FW8PHVTJC%2Fitems%3Fkey%3DbkiZGoLpG37G1vaYdFuqKwpE%26format%3Dbibtex%26limit%3D100&jsonp=1"></script>
+

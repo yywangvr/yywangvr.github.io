@@ -135,7 +135,7 @@ h2 {
 </div>
 
 <div class="bio-text">
-<p>I am an <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Yuyang/yuyangwang">Assistant Professor</a> in the CMA Thrust, Information Hub at The Hong Kong University of Science and Technology (Guangzhou).</p>
+<p>I am an <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Yuyang/yuyangwang">Assistant Professor</a> in the CMA Thrust Information Hub at The Hong Kong University of Science and Technology (Guangzhou) and an Affiliate Assistant Professor at The Hong Kong University of Science and Technology.</p>
 
 <p>From 2022 to 2024, I worked as a Postdoctoral Research Fellow in CMA. I received a <em><strong>PhD in Computer Science</strong></em> from the Arts et Métiers Institute of Technology, ParisTech in France. Under the framework of the French–German Institute for Industry of the Future, I was a visiting researcher at the Karlsruhe Institute of Technology in Germany. Additionally, I hold a <em>Master Degree on Numerical Methods in Engineering</em> from the International Center for Numerical Methods (CIMNE) at the Polytechnic University of Catalonia in Spain.</p>
 </div>
@@ -177,4 +177,5 @@ h2 {
   <span class="interest-tag">Adaptive Human-Machine Interaction</span>
   <span class="interest-tag">Affective Computing</span>
   <span class="interest-tag">Computer Vision / Reinforcement Learning</span>
+  <span class="interest-tag">World Model</span>
 </div>

@@ -375,7 +375,6 @@ A multidisciplinary group exploring the frontiers of immersive human-machine int
 
 <h2 class="team-section-title">Alumni</h2>
 
-<h3 class="team-section-subtitle">Co-supervision</h3>
 <ul class="alumni-list">
   <li>Ruofei WANG, Research Assistant, Sept. 2025 – Mar. 2025 <span class="alumni-dest">→ PhD, 哈工深 HIT Shenzhen</span></li>
   <li>Huawei TU, MPhil, Sept. 2023 – Jun. 2025 <span class="alumni-dest">→ 广州大学 Guangzhou University</span></li>

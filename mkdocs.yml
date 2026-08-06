@@ -2,7 +2,7 @@ site_name: Yuyang WANG
 nav:
     - Home: index.md
     - Bio: bio.md
-    - Research: research.md
+    - Projects: projects.md
     - Publications: publications.md
     - Teaching: teaching.md
     - Services: service.md
