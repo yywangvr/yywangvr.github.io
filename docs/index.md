@@ -169,13 +169,11 @@ h2 {
 ----
 
 ## Research Interests
-
+<p>Leverage CV/NLP/RL to build physiology-informed adaptive human-machine systems.</p>
 <div class="interest-tags">
-  <span class="interest-tag">VR Sickness</span>
-  <span class="interest-tag">Immersive Interaction</span>
-  <span class="interest-tag">Multimodal Emotion Recognition</span>
+  <span class="interest-tag">Physiology-informed AI </span>
   <span class="interest-tag">Adaptive Human-Machine Interaction</span>
   <span class="interest-tag">Affective Computing</span>
-  <span class="interest-tag">Physiology-informed AI </span>
-  <span class="interest-tag">Computer Vision / Reinforcement Learning</span>
+  <span class="interest-tag">Immersive Interaction</span>
+  <span class="interest-tag">VR Sickness</span>
 </div>
