@@ -176,6 +176,6 @@ h2 {
   <span class="interest-tag">Multimodal Emotion Recognition</span>
   <span class="interest-tag">Adaptive Human-Machine Interaction</span>
   <span class="interest-tag">Affective Computing</span>
+  <span class="interest-tag">Physiology-informed AI </span>
   <span class="interest-tag">Computer Vision / Reinforcement Learning</span>
-  <span class="interest-tag">World Model</span>
 </div>
