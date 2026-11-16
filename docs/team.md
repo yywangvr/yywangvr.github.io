@@ -214,6 +214,16 @@ A multidisciplinary group exploring the frontiers of immersive human-machine int
   <div class="member-name">Yizhe NIE</div>
   <span class="member-badge">PhD</span>
 </div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#18BC9C;">LS</div>
+  <div class="member-name">Zining WANG</div>
+  <span class="member-badge">PhD</span>
+</div>
+<div class="member-card">
+  <div class="member-avatar" style="background:#003366;">YN</div>
+  <div class="member-name">Lin WANG</div>
+  <span class="member-badge">PhD</span>
+</div>
 
 </div>
 
@@ -301,15 +311,17 @@ A multidisciplinary group exploring the frontiers of immersive human-machine int
 <div class="team-grid">
 
 <div class="member-card co-supervision">
-  <div class="member-avatar" style="background:#18BC9C;">KF</div>
-  <div class="member-name">Kairong FANG</div>
-  <span class="member-badge co">Co-sup</span>
-</div>
-<div class="member-card co-supervision">
   <div class="member-avatar" style="background:#003366;">ZC</div>
   <div class="member-name">Ziyi CHEN</div>
   <span class="member-badge co">Co-sup</span>
 </div>
+
+<div class="member-card co-supervision">
+  <div class="member-avatar" style="background:#18BC9C;">KF</div>
+  <div class="member-name">Bowen KUANG</div>
+  <span class="member-badge co">Co-sup</span>
+</div>
+
 
 </div>
 </div>
@@ -350,11 +362,7 @@ A multidisciplinary group exploring the frontiers of immersive human-machine int
 
 <div class="team-grid">
 
-<div class="member-card">
-  <div class="member-avatar" style="background:#003366;">ZW</div>
-  <div class="member-name">Zining WANG</div>
-  <span class="member-badge ra">RA</span>
-</div>
+
 <div class="member-card">
   <div class="member-avatar" style="background:#18BC9C;">YW</div>
   <div class="member-name">Yiming WU</div>
@@ -377,7 +385,8 @@ A multidisciplinary group exploring the frontiers of immersive human-machine int
 
 <ul class="alumni-list">
   <li>Ruofei WANG, Research Assistant, Sept. 2025 – Mar. 2025 <span class="alumni-dest">→ PhD, 哈工深 HIT Shenzhen</span></li>
-  <li>Huawei TU, MPhil, Sept. 2023 – Jun. 2025 <span class="alumni-dest">→ 广州大学 Guangzhou University</span></li>
+  <li>Huawei LIN, MPhil, Sept. 2023 – Jun. 2025 <span class="alumni-dest">→ 广州大学 Guangzhou University</span></li>
+  <li>Kairong FANG, MPhil, Sept. 2024 – Jun. 2026 <span class="alumni-dest">→ Entrepreneurship</span></li>
 </ul>
 
 </div>
