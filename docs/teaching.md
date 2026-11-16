@@ -114,6 +114,15 @@ h3 {
 ## Teaching
 
 <div class="course-grid">
+<div class="course-card">
+  <div class="course-code">AIAA4435</div>
+  <div class="course-body">
+    <div class="course-title">Interactive AI Systems: Design & Implementatio</div>
+    <div class="course-terms">
+      <span class="course-term">2026–27 Fall</span>
+    </div>
+  </div>
+</div>
 
 <div class="course-card">
   <div class="course-code">CMAA5041</div>
@@ -154,6 +163,7 @@ h3 {
     <div class="course-terms">
       <span class="course-term">2025–26 Fall (CMA)</span>
       <span class="course-term">2025–26 Spring (CMA)</span>
+      <span class="course-term">2026–27 Fall (CMA)</span>
     </div>
   </div>
 </div>
