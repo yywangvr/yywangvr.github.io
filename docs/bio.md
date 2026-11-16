@@ -102,6 +102,21 @@ h2 {
 </style>
 
 
+
+
+## Employment
+
+<div class="info-box emp">
+<ul>
+  <li><strong>Assistant Professor</strong> <span class="item-date">2024– Now</span><br>CMA Thrust, Information Hub, HKUST (Guangzhou)</li>
+  <li><strong>Assistant Professor</strong> <span class="item-date">2026– Now</span><br>AI Thrust, Information Hub, HKUST (Guangzhou)</li>
+  <li><strong>Affiliate Assistant Professor</strong> <span class="item-date">2026– Now</span><br>The Hong Kong University of Science and Technology</li>
+  <li><strong>Postdoctoral Researcher</strong> <span class="item-date">2022–2024</span><br>CMA Thrust, Information Hub, HKUST (Guangzhou)<br>Advisor: Prof. Pan Hui</li>
+  <li><strong>Visiting Scholar</strong> <span class="item-date">2019–2020</span><br>IMI, Karlsruhe Institute of Technology, Germany<br>Host: Prof. Jivka Ovtcharova</li>
+</ul>
+</div>
+
+
 ## Education
 
 <div class="info-box edu">
@@ -117,19 +132,6 @@ h2 {
   </li>
 </ul>
 </div>
-
-
-## Employment
-
-<div class="info-box emp">
-<ul>
-  <li><strong>Assistant Professor</strong> <span class="item-date">2024–Present</span><br>CMA Thrust, Information Hub, HKUST (Guangzhou)</li>
-  <li><strong>Affiliate Assistant Professor</strong> <span class="item-date">2026–Present</span><br>The Hong Kong University of Science and Technology</li>
-  <li><strong>Postdoctoral Researcher</strong> <span class="item-date">2022–2024</span><br>CMA Thrust, Information Hub, HKUST (Guangzhou)<br>Advisor: Prof. Pan Hui</li>
-  <li><strong>Visiting Scholar</strong> <span class="item-date">2019–2020</span><br>IMI, Karlsruhe Institute of Technology, Germany<br>Host: Prof. Jivka Ovtcharova</li>
-</ul>
-</div>
-
 
 ## Computer Skills
 
